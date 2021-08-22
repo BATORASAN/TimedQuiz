@@ -71,6 +71,7 @@ document.getElementById("ChoiceB").addEventListener("click", function (event) {
     console.log("You got it wrong", timerCount);
   }
   questionNumber++;
+  console.log(questionNumber)
 });
 document.getElementById("ChoiceC").addEventListener("click", function (event) {
   console.log(event);
@@ -83,6 +84,7 @@ document.getElementById("ChoiceC").addEventListener("click", function (event) {
     console.log("You got it wrong", timerCount);
   }
   questionNumber++;
+  console.log(questionNumber)
 });
 
 // nextQuestion();
